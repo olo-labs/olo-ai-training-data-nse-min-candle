@@ -3,8 +3,8 @@
 setlocal EnableExtensions
 cd /d "%~dp0"
 
-set "REPO_URL=https://github.com/olo-labs/olo-testdata-nse-min-candle.git"
-set "REPO_PATH=olo-labs/olo-testdata-nse-min-candle.git"
+set "REPO_URL=https://github.com/olo-labs/olo-ai-training-data-nse-min-candle.git"
+set "REPO_PATH=olo-labs/olo-ai-training-data-nse-min-candle.git"
 set "BRANCH=main"
 set "CREDENTIAL_FILE=%TEMP%\github-temp-auth-%RANDOM%-%RANDOM%.txt"
 
@@ -67,7 +67,7 @@ echo ============================================
 echo Temporary browser-authenticated push...
 echo ============================================
 echo Use the GitHub account that has access to:
-echo olo-labs/olo-testdata-nse-min-candle
+echo olo-labs/olo-ai-training-data-nse-min-candle
 echo.
 
 rem Ignore global/system configuration during this push.

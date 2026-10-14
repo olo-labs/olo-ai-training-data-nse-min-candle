@@ -24,7 +24,7 @@ This dataset is useful for:
 ## Data structure
 
 ```text
-olo-testdata-nse-min-candle/
+olo-ai-training-data-nse-min-candle/
 ├── Minute/
 │   ├── NSE/
 │   │   ├── 25112024.zip
@@ -60,8 +60,8 @@ Read the [complete data dictionary](docs/DATA_DICTIONARY.md) and [file-layout sp
 Clone the repository (Git LFS may be required if your checkout stores archives as LFS objects):
 
 ```bash
-git clone https://github.com/olo-labs/olo-testdata-nse-min-candle.git
-cd olo-testdata-nse-min-candle
+git clone https://github.com/olo-labs/olo-ai-training-data-nse-min-candle.git
+cd olo-ai-training-data-nse-min-candle
 ```
 
 ### Python and pandas
