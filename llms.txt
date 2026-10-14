@@ -2,7 +2,7 @@
 
 > Public, date-partitioned historical one-minute candle data for National Stock Exchange of India instruments and indices.
 
-Canonical repository: https://github.com/olo-labs/olo-testdata-nse-min-candle
+Canonical repository: https://github.com/olo-labs/olo-ai-training-data-nse-min-candle
 
 ## Key facts
 

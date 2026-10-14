@@ -4,8 +4,8 @@ title: "NSE India 1-Minute OHLCV Historical Market Data"
 type: dataset
 authors:
   - name: "OLO Labs"
-repository-code: "https://github.com/olo-labs/olo-testdata-nse-min-candle"
-url: "https://github.com/olo-labs/olo-testdata-nse-min-candle"
+repository-code: "https://github.com/olo-labs/olo-ai-training-data-nse-min-candle"
+url: "https://github.com/olo-labs/olo-ai-training-data-nse-min-candle"
 license: Apache-2.0
 keywords:
   - NSE

@@ -1020,7 +1020,7 @@ jobs:
         shell: pwsh
         env:
           GH_TOKEN: ${{ secrets.PARENT_REPO_TOKEN }}
-          PARENT_REPOSITORY: olo-labs/olo-testdata-nse
+          PARENT_REPOSITORY: olo-labs/olo-ai-training-data-nse
           RELEASED_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: |
           if ([string]::IsNullOrWhiteSpace($env:GH_TOKEN)) {
@@ -1028,7 +1028,7 @@ jobs:
           PARENT_REPO_TOKEN is not configured.
 
           Add a fine-grained token with Contents write access to
-          olo-labs/olo-testdata-nse as a repository secret in this repository.
+          olo-labs/olo-ai-training-data-nse as a repository secret in this repository.
           "@
           }
 
